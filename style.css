@@ -67,8 +67,6 @@
     font-family: Arial, Helvetica, sans-serif ;
     text-align: justify;
     padding-bottom: 40px;
-    flex: 1;
-
   }
 
   aside{
@@ -94,7 +92,7 @@
   .Matt{
     color:white;
     text-align: center;
-    font-size: 18px;
+    font-size: 29px;
   }
 
   .Movie {
