@@ -27,11 +27,6 @@
     background: white;
   }
 
-  .figure{
-    width: 100%;
-    height: 48vh;
-  }
-
   .imaget {
     display: flex;
     width: 100%;
@@ -57,9 +52,14 @@
   main{
     background-color: white;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     font-size:larger;
-    padding: 2%; 
+    padding: 10px; 
+  }
+  section{
+    display: flex;
+    flex-direction: row;
   }
 
   h1{
@@ -86,35 +86,55 @@
   .container{
     width: 80%;
     padding-right: 1em;
-    font-size: small;
+    font-size: 20px;
   }
 
   .Matt img{
-    width: 70%;
-    margin: 1%; 
-    text-align: center;
+    padding: 5px;
+    width: 15vw; 
+    text-align: justify;
+    font-size: 20px;
   } 
 
+  .auteur{
+    display: flex;
+    justify-content: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+
   h3{
-    padding-bottom: 4%; 
+    padding-bottom: 2%; 
     font-weight:900;
+  }
+  h5{
+    padding-bottom: 4%;
   }
 
   .Matt{
+    width: 22vw;
     color:white;
-    font-size: 20px;
     word-spacing: 2px;
+    text-align: justify;
+    font-size: 1.3rem;
+    height: 80vh;
   }
 
   .Movie {
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 45%;
   }
 
   .Movie img {
-    margin: 0 10px;
-    width: 20%;
+    margin: 0 3px;
+    width: 31%;
+    border: 1px solid black;
+    object-fit: cover;
   }
 
   footer{
@@ -140,6 +160,7 @@
   }
 
   main {
+    display: flex;
     flex-direction: column;
   }
 
