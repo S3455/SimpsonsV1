@@ -1,0 +1,242 @@
+    
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box; 
+  }
+
+  #wrapper{
+    width: 70%;
+    margin: auto;
+  }
+
+  body{
+    background-color: #fdd116;
+  }
+
+header {
+  background-color: white;
+}
+  h2{    
+    text-align: center;
+    background: #4c8dcd;
+    color: white;
+    font-size: 30px;
+  }
+
+  .line-1 {
+    height: 1px;
+    background: white;
+  }
+
+  .imaget {
+    display: flex;
+    width: 100%;
+  }
+
+  nav{
+    width: 100%;
+    height: 10vh; 
+    display: flex;
+    background-color: #4c8dcd;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .dashed-line {
+    border-top: 2px dashed #4c8dcd;
+  }
+
+  ul{
+    color: white;
+    list-style-type:none;
+    display: flex;
+    width:80%;
+    justify-content:space-around ;
+  }
+
+
+  main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:larger;
+    padding: 10px; 
+  }
+  section{
+    display: flex;
+    flex-direction: row;
+  }
+
+  h1{
+  color: #fdd116;
+  padding-bottom: 1% ;
+  padding-top: 1%;
+  font-size: 35px;
+  font-weight: bolder;
+  }
+
+  article{
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: justify;
+  }
+
+  aside{
+    width:25%;
+    background-color: #4c8dcd;
+  }
+
+  .container{
+    width: 80%;
+    padding-right: 1em;
+    font-size: 20px;
+  }
+
+  .Matt img{
+    margin: 5px;
+    width: 15vw; 
+    text-align: justify;
+    font-size: 20px;
+    border: 1px solid white
+  } 
+
+  .auteur{
+    display: flex;
+    justify-content: center;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+
+  h3{
+    padding-bottom: 2%; 
+    font-weight:900;
+  }
+  h5{
+    padding-bottom: 4%;
+  }
+
+  .Matt{
+    width: 22vw;
+    color:white;
+    word-spacing: -3px;
+    text-align: justify;
+    font-size: 99%;
+    height: 60vh;
+  }
+
+  .Movie {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 34%;
+  }
+
+  aside,p{
+
+    margin: 6px;
+  }
+  .Movie img {
+    margin: 0 3px;
+    width: 33%;
+    height: 91%;
+    border: 1px solid black;
+    object-fit:cover;
+    object-position: 0% 30%;
+  }
+
+  footer{
+  text-align: center;
+  background-color: #29539d;
+  color:white;
+  font-size: 20px;
+  }
+
+/***************************Responsive*******************************************/
+
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .imaget {
+    height:220px ;
+  }
+  .Menu {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  ul{
+    flex-direction: column;
+  }
+
+  li{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    vertical-align: middle ;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+    text-align:unset;
+  }
+  aside.p {
+    margin: 0;
+  }
+
+  .Matt img {
+    width: 90%;
+  }
+  
+  #wrapper {
+    width: 100%;
+  }
+
+  .container{
+    text-align: justify;
+    width: 100%;
+    padding: 0;
+  }
+
+  section {
+    flex-direction: column;
+  }
+
+  .Matt {
+width: 92vw;
+height: 74vh;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width:1440px){
+
+.Matt {
+  min-height: 500px;
+}
+
+aside {
+  height: 18%;
+}
+
+.Movie {
+
+  height: 20vw;
+}
+
+li {
+  padding-right: 1em;
+
+}
+}
